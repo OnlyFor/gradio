@@ -1145,7 +1145,7 @@ class Endpoint:
             cancel_msg = (
                 "Cancelling this job will not stop the server from running. "
                 "To fix this, an event must be added to the upstream app that explicitly cancels this one or "
-                "the upstream app must be running Gradio 4.29.0 and greater."
+                "the upstream app must be running Gradio 4.30.0 or greater."
             )
 
             if cancellable and other_cancelled:
