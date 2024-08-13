@@ -30,6 +30,7 @@ js/gradio-preview/test/*
 *.db
 *.sqlite3
 gradio/launches.json
+gradio/hash_seed.txt
 flagged/
 gradio_cached_examples/
 tmp.zip
@@ -40,6 +41,7 @@ coverage.xml
 test.txt
 **/snapshots/**/*.png
 playwright-report/
+.hypothesis
 
 # Demos
 demo/tmp.zip
